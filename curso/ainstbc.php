@@ -1,18 +1,18 @@
 <?php
-echo $nome = $_POST['nome'];
-echo $nome = $_POST['cnpj'];
-echo $nome = $_POST['inscestadual'];
-echo $nome = $_POST['responsavel'];
-echo $nome = $_POST['cpf'];
-echo $nome = $_POST['rg'];
-echo $nome = $_POST['endereço'];
-echo $nome = $_POST['complemento'];
-echo $nome = $_POST['bairro'];
-echo $nome = $_POST['cidade'];
-echo $nome = $_POST['estado'];
-echo $nome = $_POST['celular'];
-echo $nome = $_POST['email'];
-echo $nome = $_POST['obsevacoes'];
+$nome = $_POST['nome'];
+$nome = $_POST['cnpj'];
+$nome = $_POST['inscestadual'];
+$nome = $_POST['responsavel'];
+$nome = $_POST['cpf'];
+$nome = $_POST['rg'];
+$nome = $_POST['endereço'];
+$nome = $_POST['complemento'];
+$nome = $_POST['bairro'];
+$nome = $_POST['cidade'];
+$nome = $_POST['estado'];
+$nome = $_POST['celular'];
+$nome = $_POST['email'];
+$nome = $_POST['obsevacoes'];
 
 
 
