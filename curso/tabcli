@@ -1,0 +1,20 @@
+
+CREATE TABLE clientes (
+  id INT,
+  nome VARCHAR(150) NOT NULL,
+  cnpj VARCHAR(45) NOT NULL,
+  inscestadual VARCHAR(45) NOT NULL,
+  responsavel VARCHAR(45) NOT NULL,
+  cpf VARCHAR(45) NOT NULL,
+  rg VARCHAR(45) NOT NULL,
+  endereco VARCHAR(150) NOT NULL,
+  complemento VARCHAR(150) NOT NULL,
+  bairro VARCHAR(45) NOT NULL,
+  cidade VARCHAR(45) NOT NULL,
+  estado VARCHAR(45) NOT NULL,
+  celular VARCHAR(45) NOT NULL,
+  email VARCHAR(45) NOT NULL,
+  obsevacoes VARCHAR(150) NOT NULL,
+  UNIQUE INDEX email_UNIQUE (email ASC) VISIBLE,
+  PRIMARY KEY (id)
+);
