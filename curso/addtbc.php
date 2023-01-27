@@ -7,7 +7,7 @@
     <title>CadCli</title>
 </head>
 <body>
-    <form action="" method="POST" name="cliemte" action="ainstbc.php">
+    <form method="post" name="cliemte" action="ainstbc.php">
     <label for="">Nome</label>
     <input type="text" name="nome" maxlength="150">
     <label for="">CNPJ</label>
@@ -36,7 +36,7 @@
     <input type="text" name="email" maxlength="15">
     <label for="">Obsercaçôes</label>
     <input type="text" name="obsevacoes" maxlength="15">
-    <input type="submit" name="Salvar" value="Enviar">
+    <input type="submit" name="Enviar" value="Enviar">
 
     </form>
 </body>
