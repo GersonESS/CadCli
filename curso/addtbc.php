@@ -7,13 +7,11 @@
     <title>CadCli</title>
 </head>
 <body>
-    <form action="" method="POST" name="cliemte" action="">
+    <form action="" method="POST" name="cliemte" action="ainstbc.php">
     <label for="">Nome</label>
     <input type="text" name="nome" maxlength="150">
     <label for="">CNPJ</label>
     <input type="text" name="cnpj" maxlength="15">
-    <label for="">Nome</label>
-    <input type="text" name="nome" maxlength="150">
     <label for="">Inscrição Estadual</label>
     <input type="text" name="inscestadual" maxlength="150">
     <label for="">Tesponsavel</label>
@@ -23,7 +21,7 @@
     <label for="">Rg</label>
     <input type="text" name="rg" maxlength="15">
     <label for="">Endereço</label>
-    <input type="text" name="Endereço" maxlength="100">
+    <input type="text" name="endereço" maxlength="100">
     <label for="">Complemento</label>
     <input type="text" name="complemento" maxlength="150">
     <label for="">Bairro</label>
@@ -35,7 +33,7 @@
     <label for="">Celular</label>
     <input type="text" name="celular" maxlength="15">
     <label for="">Email</label>
-    <input type="text" name="Email" maxlength="15">
+    <input type="text" name="email" maxlength="15">
     <label for="">Obsercaçôes</label>
     <input type="text" name="obsevacoes" maxlength="15">
     <input type="submit" name="Salvar" value="Enviar">
