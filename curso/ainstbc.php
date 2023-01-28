@@ -16,4 +16,12 @@ echo $estado = $_POST['estado'];
 echo $celular = $_POST['celular'];
 echo $email = $_POST['email'];
 echo $obsevacoes = $_POST['obsevacoes'];
+$sql = "INSERT INTO clientes (nome ,cnpj ,inscestadual ,responsavel ,cpf ,rg ,endereco ,complemento ,bairro ,cidade ,estado ,celular ,email ,obs)
+VALUES('$nome' ,'$cnpj' ,'$inscestadual' ,'$responsavel' ,'$cpf' ,'$rg' ,'$endereco' ,'$complemento' ,'$bairro' ,'$cidade' ,'$estado' ,'$celular' ,'$email' ,'$obs') ";
+of(mysqli_query($conn, $sql)){
+    header("Location: addtbc.php");
+}else{
+    echo "Deu erro" . $sql . <"<br>" . mysql_error($conn);
+}
+mysqli_close($conn);
 ?>
