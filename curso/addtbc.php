@@ -21,7 +21,7 @@
     <label for="">Rg</label>
     <input type="text" name="rg" maxlength="15">
     <label for="">Endereço</label>
-    <input type="text" name="endereço" maxlength="100">
+    <input type="text" name="endereco" maxlength="100">
     <label for="">Complemento</label>
     <input type="text" name="complemento" maxlength="150">
     <label for="">Bairro</label>
@@ -34,8 +34,8 @@
     <input type="text" name="celular" maxlength="15">
     <label for="">Email</label>
     <input type="text" name="email" maxlength="15">
-    <label for="">Obsercaçôes</label>
-    <input type="text" name="obsevacoes" maxlength="15">
+    <label for="">Observaçôes</label>
+    <input type="text" name="observacoes" maxlength="15">
     <input type="submit" name="Enviar" value="Enviar">
 
     </form>

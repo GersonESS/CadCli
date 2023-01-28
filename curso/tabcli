@@ -14,7 +14,7 @@ CREATE TABLE clientes (
   estado VARCHAR(45) NOT NULL,
   celular VARCHAR(45) NOT NULL,
   email VARCHAR(45) NOT NULL,
-  obsevacoes VARCHAR(150) NOT NULL,
+  observacoes VARCHAR(150) NOT NULL,
   UNIQUE INDEX email_UNIQUE (email ASC) VISIBLE,
   PRIMARY KEY (id)
 );
