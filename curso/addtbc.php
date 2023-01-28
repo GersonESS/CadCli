@@ -14,7 +14,7 @@
     <input type="text" name="cnpj" maxlength="15">
     <label for="">Inscrição Estadual</label>
     <input type="text" name="inscestadual" maxlength="150">
-    <label for="">Tesponsavel</label>
+    <label for="">Responsavel</label>
     <input type="text" name="responsavel" maxlength="150">
     <label for="">CPF</label>
     <input type="text" name="cpf" maxlength="150">
@@ -33,9 +33,9 @@
     <label for="">Celular</label>
     <input type="text" name="celular" maxlength="15">
     <label for="">Email</label>
-    <input type="text" name="email" maxlength="15">
+    <input type="text" name="email" maxlength="45">
     <label for="">Observaçôes</label>
-    <input type="text" name="observacoes" maxlength="15">
+    <input type="text" name="observacoes" maxlength="150">
     <input type="submit" name="Enviar" value="Enviar">
 
     </form>
