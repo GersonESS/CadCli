@@ -15,7 +15,7 @@ echo $cidade = $_POST['cidade'];
 echo $estado = $_POST['estado'];
 echo $celular = $_POST['celular'];
 echo $email = $_POST['email'];
-echo $observacoes = $_POST[''];
+echo $observacoes = $_POST['observacoes'];
 $sql = "INSERT INTO clientes (nome ,cnpj ,inscestadual ,responsavel ,cpf ,rg ,endereco ,complemento ,bairro ,cidade ,estado ,celular ,email ,observacoes)
 VALUES('$nome' ,'$cnpj' ,'$inscestadual' ,'$responsavel' ,'$cpf' ,'$rg' ,'$endereco' ,'$complemento' ,'$bairro' ,'$cidade' ,'$estado' ,'$celular' ,'$email' ,'$observacoes') ";
 if(mysqli_query($conn, $sql)){
