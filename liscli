@@ -1,2 +1,0 @@
-$sql = "INSERT INTO clientes (nome ,cnpj ,inscestadual ,responsavel ,cpf ,rg ,endereco ,complemento ,bairro ,cidade ,estado ,celular ,email ,obs)
-VALUES('$nome' ,'$cnpj' ,'$inscestadual' ,'$responsavel' ,'$cpf' ,'$rg' ,'$endereco' ,'$complemento' ,'$bairro' ,'$cidade' ,'$estado' ,'$celular' ,'$email' ,'$obs') ";
